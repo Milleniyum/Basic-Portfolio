@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+#header {
+    position: relative;
+    width: 960px;
+}
+
+#name {
+    position: absolute;
+    float: left;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+    color: white;
+    background: green;
+}
