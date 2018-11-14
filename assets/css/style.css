@@ -6,16 +6,20 @@
 }
 
 body {
-    background: #eaeaea;
+    background-image: url("../images/retina_wood.png");
+    margin: 0;
 }
 
 #main_header {
+    position: fixed;
+    top: 0;
+    width: 100%;
     height: 80px;
     border-bottom: 2px solid #cccccc;
     background: #ffffff;
 }
 
-.header_container {
+#header_container {
     position: relative;
     height: 80px;
     width:  960px;
@@ -46,15 +50,6 @@ body {
     text-decoration: none;
 }
 
-#main_content {
-    width: 960px;
-    height: 480px;
-    margin: 20px auto 0 auto;
-    padding: 30px;
-    border: 1px solid #dddddd;
-    background: #ffffff;
-}
-
 h1 {
     padding-bottom: 30px;
     margin-top: 0;
@@ -66,14 +61,76 @@ h1 {
     border-bottom: 3px solid #4aaaa5;
 }
 
-#main_content img {
+#about_content {
+    overflow: auto;
+    width: 960px;
+    height: 940px;
+    margin: 100px auto 100px auto;
+    padding: 30px;
+    border: 1px solid #dddddd;
+    background: #ffffff;
+}
+
+#about_content img {
     float: left;
     margin: 8px 20px 20px 0;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
+    border: 2px solid #4aaaa5;
 }
 
 p {
     margin-bottom: 20px;
     line-height: 30px;
+}
+
+#content_cont {
+    clear: both;
+}
+
+#contact_content {
+    overflow: auto;
+    width: 960px;
+    height: 600px;
+    margin: 100px auto 100px auto;
+    padding: 30px;
+    border: 1px solid #dddddd;
+    background: #ffffff;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #4aaaa5;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 1px solid #4aaaa5;
+}
+
+button {
+    width: 130px;
+    height: 50px;
+    background: #4aaaa5;
+    color: #ffffff;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    bottom: 0;
+    border-top: 8px solid #4aaaa5;
+    background: #666666;
+}
+
+footer div {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    text-align: center;
+    color: #4aaaa5;
 }
