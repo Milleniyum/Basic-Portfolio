@@ -10,6 +10,8 @@ body {
     margin: 0;
 }
 
+/* Header */
+
 #main_header {
     position: fixed;
     top: 0;
@@ -17,6 +19,7 @@ body {
     height: 80px;
     border-bottom: 2px solid #cccccc;
     background: #ffffff;
+    z-index: 1;
 }
 
 #header_container {
@@ -50,6 +53,12 @@ body {
     text-decoration: none;
 }
 
+#menu a:hover {
+    color: #5daa51;
+}
+
+/* Global h1 */
+
 h1 {
     padding-bottom: 30px;
     margin-top: 0;
@@ -60,6 +69,8 @@ h1 {
     font-family: Georgia, Times, 'Times New Roman', serif;
     border-bottom: 3px solid #4aaaa5;
 }
+
+/* About Container */
 
 #about_content {
     overflow: auto;
@@ -74,8 +85,8 @@ h1 {
 #about_content img {
     float: left;
     margin: 8px 20px 20px 0;
-    height: 250px;
-    width: 250px;
+    height: 260px;
+    width: 260px;
     border: 2px solid #4aaaa5;
 }
 
@@ -87,6 +98,8 @@ p {
 #content_cont {
     clear: both;
 }
+
+/* Contact Container */
 
 #contact_content {
     overflow: auto;
@@ -117,6 +130,63 @@ button {
     background: #4aaaa5;
     color: #ffffff;
 }
+
+/* Portfolio Container */
+
+#portfolio_content {
+    position: relative;
+    overflow: auto;
+    width: 960px;
+    height: 625px;
+    margin: 100px auto 100px auto;
+    padding: 30px;
+    border: 2px solid #dddddd;
+    background: #ffffff;
+}
+
+#portfolio_content div {
+    position: absolute;
+    width: 250px;
+    line-height: 50px;
+    text-align: center;
+    background: #4aaaa5;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+}
+
+#portfolio_content div:hover {
+    color: black;
+    cursor: pointer;
+}
+
+#portfolio_content img {
+    margin: 0 40px 20px 0;
+}
+
+#proj_1 {
+    top: 274px;
+}
+
+#proj_2 {
+    top: 274px;
+    left: 325px;
+}
+
+#proj_3 {
+    top: 274px;
+    left: 620px;
+}
+
+#proj_4 {
+    top: 505px;
+}
+
+#proj_5 {
+    top: 505px;
+    left: 325px;
+}
+
+/* Footer */
 
 footer {
     position: fixed;
