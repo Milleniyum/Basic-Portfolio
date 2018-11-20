@@ -36,10 +36,14 @@ body {
     padding: 0 30px;
     line-height: 80px;
     background: #4aaaa5;
+}
+
+#name a {
     font-size: 28px;
     font-weight: bold;
     font-family: Georgia, Times, 'Times New Roman', serif;
     color: #ffffff;
+    text-decoration: none;
 }
 
 #menu {
@@ -137,53 +141,37 @@ button {
     position: relative;
     overflow: auto;
     width: 960px;
-    height: 625px;
+    height: 650;
     margin: 100px auto 100px auto;
     padding: 30px;
     border: 2px solid #dddddd;
     background: #ffffff;
 }
 
-#portfolio_content div {
-    position: absolute;
+.project {
+    position: relative;
+    float: left;
     width: 250px;
-    line-height: 50px;
+    margin: 10px 20px 20px 0;
+}
+
+.project h3 {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
     text-align: center;
     background: #4aaaa5;
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    color: #ffffff;
+    border-bottom: 0;
 }
 
-#portfolio_content div:hover {
+.project h3:hover {
     color: black;
     cursor: pointer;
-}
-
-#portfolio_content img {
-    margin: 0 40px 20px 0;
-}
-
-#proj_1 {
-    top: 274px;
-}
-
-#proj_2 {
-    top: 274px;
-    left: 325px;
-}
-
-#proj_3 {
-    top: 274px;
-    left: 620px;
-}
-
-#proj_4 {
-    top: 505px;
-}
-
-#proj_5 {
-    top: 505px;
-    left: 325px;
 }
 
 /* Footer */
